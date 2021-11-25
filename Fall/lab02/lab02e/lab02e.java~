@@ -1,0 +1,58 @@
+import java.util.Scanner;
+
+/**
+ * program description
+ * @author Ahmet Faruk Ulutaþ
+ * @version 17.10.2019
+ */ 
+public class lab02e
+{
+   public static void main( String[] args)
+   {
+      Scanner scan = new Scanner( System.in);
+
+      // constants
+      final String DOC = "<!DOCTYPE html>";
+      final String HTML = "<html>";
+      final String HEAD = "<head>";
+      final String TITLE = "<title>";
+      final String /TITLE = "</title>";
+      final String HR = "<hr>";
+      final String /HR = "</hr>";
+      final String P = "<p>";
+      final String /P = "</p>";
+      final String H1 = "<h1>";
+      final String /H1 = "</h1>";
+      
+      final String /HEAD = "</head>";
+      final String BODY = "<body>";
+      final String /BODY = "</body>";
+      final String /HTML = "</html>";
+      // variables
+      int age;
+      double salary;
+      String comments;
+
+      // program code
+      System.out.println(DOC);
+      System.out.println(HTML);
+      System.out.println(HEAD);
+      System.out.println(TITLE);
+      System.out.println(/TITLE);
+      System.out.println(/HEAD);
+      System.out.println(BODY);
+      System.out.println(HR);
+      System.out.println(H1);
+      System.out.println(/H1);
+      System.out.println(P);
+      System.out.println(/P);
+      System.out.println(P);
+      System.out.println(/P);
+      System.out.println(P);
+      System.out.println(/P);
+      System.out.println(HR);
+      System.out.println(/BODY);
+      System.out.println(/HTML);
+   }
+
+}

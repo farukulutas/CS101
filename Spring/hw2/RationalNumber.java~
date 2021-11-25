@@ -1,0 +1,21 @@
+/**
+ * This class works on rational numbers...
+ * @author Ahmet Faruk Ulutaþ
+ * @version 13/05/2020
+ */ 
+public class RationalNumber {
+   // properties
+   private int numerator, denominator;
+   
+   // constructors
+   public RationalNumber( int n, int d) {
+      
+   }
+   
+   // methods
+   
+   public boolean isInteger() {
+      
+   }
+
+}

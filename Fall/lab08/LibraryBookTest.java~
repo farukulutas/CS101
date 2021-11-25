@@ -1,0 +1,64 @@
+/**
+ * Test class for library book!
+ * @Author Ahmet Faruk Ulutaþ
+ * @Date 05.12.2019
+ */
+
+public class LibraryBookTest
+{
+   public static void main( String[] args)
+   {
+      // variables
+      LibraryBook bookOne;
+      LibraryBook bookTwo;
+      LibraryBook book1;
+      LibraryBook book2;
+      LibraryBook book3;
+      LibraryBook book4;
+      
+      // program code
+      bookOne = new LibraryBook( "Introduction to the Hacking 2", "Vahap Eren", 7);
+      bookTwo = new LibraryBook( "Introduction to the Hacking", "Ýsmail Bülbül", 12);
+      
+      System.out.println( bookOne);
+      System.out.println( bookTwo);
+      System.out.println();
+      System.out.println();
+      
+      bookOne.loanTheBook( "12.05.2020");
+      System.out.println( "Times loaned for the first book: " + bookOne.getTimesLoaned());
+      System.out.println( "The book is on loan: " + bookOne.onLoan());
+      System.out.println();
+      System.out.println();
+      
+      bookTwo.returnTheBook();
+      System.out.println( "Times loaned for the second book: " + bookTwo.getTimesLoaned());
+      System.out.println( "The book is on loan: " + bookTwo.onLoan());
+      System.out.println();
+      System.out.println();
+      
+      book1 = new LibraryBook( "Hacking Interface", "x-Master", 0);
+      book2 = book1;
+      book3 = new LibraryBook( "Kali Linux", "Abdulaziz Altuntaþ", 3);
+      book4 = new LibraryBook( "Web and Software Secure", "Furkan Çontar", 0);
+      
+      System.out.println( "book1 == book2: " + (book1 == book2));
+      System.out.println( "book1.equals(book2): " + book1.equals(book2));     
+      System.out.println();
+      
+      System.out.println( "book1 == book3: " + (book1 == book3));
+      System.out.println( "book1.equals(book3): " + book1.equals(book3)); 
+      System.out.println();
+      
+      System.out.println( "book1 == book4: " + (book1 == book4));
+      System.out.println( "book1.equals(book4): " + book1.equals(book4));     
+      System.out.println();
+      
+      System.out.println( "book1.hasSameTitle( book3): " + book1.hasSameTitle( book3));
+      System.out.println( "book1.hasSameTitle( book4): " + book1.hasSameTitle( book4));
+      
+      System.out.println( "book1.hasSameAuthor( book3): " + book1.hasSameTitle( book3));
+      System.out.println( "book1.hasSameAuthor( book4): " + book1.hasSameTitle( book4));
+      
+   }
+}

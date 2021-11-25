@@ -1,0 +1,23 @@
+import java.util.Scanner;
+import util.java.ArrayList;
+
+public class Lab09b
+{
+   public static void main( String[] args)
+   {
+      Scanner scan = new Scanner( System.in);
+
+      // constants
+
+      // variables
+
+      // program code
+      System.out.println( "Start...");
+
+
+      System.out.println( "End.");
+   }
+
+}
+   
+}

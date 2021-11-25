@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+/**
+ * __program description___ 
+ * @author Ahmet Faruk Ulutaþ
+ * @version 25/03/2020
+ */ 
+public class Lab05a
+{
+   public static void main( String[] args)
+   {
+      Scanner scan = new Scanner( System.in);
+      
+      // variables
+      String input;
+      
+      // program code
+      
+      // ask prompt and input
+      System.out.print( "Please enter a string:");
+      input = scan.nextLine();
+      
+      if ( input == "" ) {
+         System.out.println( "---> Empty String \n The final string is empty.");
+      }
+   }
+   
+}

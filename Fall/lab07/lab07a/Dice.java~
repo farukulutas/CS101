@@ -1,0 +1,62 @@
+/**
+ * A simple Dice class!
+ */
+public class Dice
+{  
+   // properties
+   private Die Die1, Die2;
+   
+   // constructors
+   public Dice()
+   {
+      Die1 = new Die();
+      Die2 = new Die();
+   }
+   // methods
+   
+   /**
+    * This method gather the rolls and then return the faceValue.
+    * @return faceValue 
+    */
+   public int roll()
+   {
+      return Die1.roll() + Die2.roll();
+   }
+   
+   /**
+    * This method get the faceValue and then return the first die.
+    * @return Die1.getFaceValue 
+    */
+   public int getDie1FaceValue()
+   {
+      return Die1.getFaceValue();
+   }
+   
+   /**
+    * This method get the faceValue and then return the second die.
+    * @return Die2.getFaceValue 
+    */
+   public int getDie2FaceValue()
+   {
+      return Die2.getFaceValue();
+   }
+   
+   /**
+    * This method gather the faceValue of die1 and die2.
+    * @return sum
+    */
+   public int getDiceTotal()
+   {
+      return Die1.getFaceValue() + Die2.getFaceValue();
+   }
+   
+   /**
+    * This method convert the faceValues toString from int
+    * @return convert
+    */
+   public String toString()
+   {
+      return "First value is: " + getDie1FaceValue() + "Second value is: " + getDie2FaceValue();
+   }
+}
+

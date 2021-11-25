@@ -1,0 +1,188 @@
+import java.util.Arrays;
+
+/**
+ * Simple BigNum Class 
+ * @author Ahmet Faruk ULUTAS
+ * @version 19/12/2019
+ */ 
+public class BigNum 
+{
+   // properties
+   public static final int SIZE = 4;
+   public static final int BASE = 10;
+   int[] numbers;
+   
+   // constructors
+   public BigNum()
+   {
+      numbers = new int[10];
+      for( int i = 0; i < numbers.length; i++)
+      {
+         numbers[i] = 0;
+      }
+   }
+   
+   public BigNum( String num)
+   {
+      int count;
+      int number;
+      int digit;
+      count = 0;
+      numbers = new int[10];
+      number = Integer.parseInt( num);
+      
+      for( int i = 0; i < numbers.length; i++)
+      {
+         numbers[i] = 0;
+      }
+      
+      while( number > 0)
+      {
+         digit = number % 10;
+         numbers[count] = digit;
+         number = number / 10;
+         count++;
+      }
+   }
+   
+   
+   public BigNum( BigNum other)
+   {
+      numbers = new int[10];
+      for( int i = 0; i < numbers.length; i = i + 1) {
+         numbers[i] = other.numbers[i];
+      }
+   }
+   
+   // methods
+   
+   /**
+    * Method convert the number to string.
+    * @return start + numberStr + end
+    */
+   public String toString()
+   {
+      String display;
+      char temp;
+      display = "";
+      for( int i = SIZE; i > 0; i--)
+      {
+         if ( numbers[i - 1] < 10 && numbers[i - 1] >= 0 )
+         {
+            display = display + numbers[i - 1];
+         }
+         else
+         {
+            temp = (char) (numbers[i] + 'A' - 10 );
+            display = display + temp;
+         }
+      }
+      return display;
+   }
+   
+   /**
+    * Method check the numbers whether they are equal or not
+    * @return check
+    */
+   public boolean equals( BigNum other)
+   {
+      boolean check;
+      check = true;
+      
+      for( int i = 0; i < numbers.length; i++)
+      {
+         if( numbers[i] != other.numbers[i])
+         {
+            check = false;
+         }
+      }
+      return check;
+   }
+   
+   /**
+    * Method check the number whether number is zero or not
+    * @return check
+    */
+   public boolean isZero()
+   {
+      boolean check;
+      check = true;
+      
+      for( int i = 0; i < numbers.length; i++)
+      {
+         if( numbers[i] != 0)
+         {
+            check = false;
+         }
+      }
+      return check;
+   }
+   
+   /**
+    * Method shifts numbers to the right or left, depending on the situation true or false.
+    * @param left
+    */
+   public void shift( boolean left)
+   {
+      if( left)
+      {
+         for ( int i = SIZE - 1; i > 0; i--)
+         {
+            numbers[i] = numbers[i - 1];
+         }
+         numbers[0] = 0;
+      }
+      else
+      {
+         for ( int i = 0; i < SIZE - 1; i++)
+         {
+            numbers[i] = numbers[i + 1];
+         }
+         numbers[SIZE - 1] = 0;
+      }
+   }
+   
+   /**
+    * Method allows adding numbers without overflow.
+    * @return sumOfValues + carry;
+    */
+   public String add( BigNum other)
+   {
+      int sum, carry;
+      String sumOfValues;
+      
+      carry = 0;
+      sumOfValues = "";
+      
+      for ( int counter = 0; counter < SIZE; counter++ )
+      {
+         sum = this.numbers[counter] + other.numbers[counter] + carry;
+         carry = sum / BASE;
+         if ( (sum % BASE) < 10 && (sum % BASE) >= 0)
+            sumOfValues = ( sum % BASE) + sumOfValues;
+         else
+            sumOfValues = (char) ((sum % BASE) + 'A' - 10) + sumOfValues;
+      }
+      return "sum: " + sumOfValues + "\noverflow: " + carry;
+   }
+   
+   /**
+    * Method should return true only if this BigNum is strictly less than the other BigNum.
+    * @return true or false
+    */
+   public boolean isLessThan( BigNum other)
+   {
+      for (int i = SIZE - 1; i >= 0; i--)
+      {
+         if ( other.numbers[ i] > numbers[ i])
+         {
+            return true;
+         }
+         else if ( other.numbers[ i] <= numbers[ i])
+         {
+            return false;
+         }
+      }
+      return false;
+   }
+}

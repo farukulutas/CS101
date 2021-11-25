@@ -1,0 +1,42 @@
+import java.util.Scanner;
+
+/* This program calculate the exact fibonacci number which is given by the user.
+ * @author Ahmet Faruk Ulutaþ
+ * @version 18/02/2020
+ */
+
+public class Lab01c {
+   
+   public static void main( String[] args) {
+      
+      Scanner scan = new Scanner( System.in);
+      
+      // constants
+      final double p;
+      final double formula;
+      
+      // variables
+      double n;
+      
+      // program code
+      
+      // initiliaze the scanner for n
+      n = scan.nextDouble();
+      
+      // write p and formula to calculate result
+      p = ( (1 + Math.pow(5, 0.5) ) / 2 ); 
+      formula = ( ( Math.pow( p, n ) - Math.pow( -p, -n ) ) / Math.pow(5, 0.5) );
+      
+      // print the result
+      System.out.println( "Fibonacci(" + (int) n + ") is " + (int) formula );
+      
+      // result will be wrong after n = 46 because its overflowing int.
+      System.out.println( "Fibonacci(" + (int) n + ") is " + Math.round(formula) );
+      
+      // also math.round does not work so, printf method
+      System.out.printf( "Fibonacci(" + (int) n + ") is %.0f" , formula );
+      
+      // however, still we could not find the exact value but too close.
+   }
+   
+}

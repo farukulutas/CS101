@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<drjava version="drjava-20140826-r5761">
+  <project autorefresh="false" root="classes/" work="">
+    <createjar file=""/>
+    <source/>
+    <included>
+      <file active="true" name="C:/Users/Faruk/Desktop/CS101/lab02/Lab02a/Lab02a.java" package="" timestamp="25-Feb-2020 10:43:34">
+        <select from="1048" to="1048"/>
+        <scroll column="0" row="0"/>
+      </file>
+    </included>
+    <excluded/>
+    <collapsed/>
+    <classpath/>
+    <breakpoints/>
+    <watches/>
+    <bookmarks/>
+    <preferences/>
+  </project>
+</drjava>

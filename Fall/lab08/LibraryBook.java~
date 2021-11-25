@@ -1,0 +1,90 @@
+/**
+ * LibraryBook class!
+ * @Author Ahmet Faruk Ulutaþ
+ * @Date 05.12.2019
+ */
+
+public class LibraryBook 
+{   
+   // properties
+   String title;
+   String author;
+   String dueDate;
+   int    timesLoaned;
+   
+   // constructors
+   public LibraryBook( String theTitle, String theAuthor, int theTimesLoaned)
+   {
+      title = theTitle;
+      author = theAuthor;
+      timesLoaned = theTimesLoaned;
+   }
+   
+   public LibraryBook( String theTitle, String theAuthor)
+   {
+      title = theTitle;
+      author = theAuthor;
+   }
+   
+   // methods
+   public void loanTheBook( String theDueDate)
+   {
+      System.out.println( "Book " + title + " is loaned.");
+      dueDate = theDueDate;
+      System.out.println( "The new due date is " + dueDate);
+      timesLoaned++;
+   }
+   
+   public void returnTheBook()
+   {
+      System.out.println( "Book " + title + " is returned.");
+      dueDate = "";
+   }
+   
+   public int getTimesLoaned()
+   {
+      return timesLoaned;
+   }
+   
+   public boolean onLoan()
+   {
+      if ( dueDate.length() == 0)
+      {
+         return true;
+      }
+      else
+      {
+         return false;
+      }     
+   }
+   
+   public String toString()
+   {
+      return "Title: " + title + " - Author: " + author;
+   }
+   
+   public boolean equals( LibraryBook aBook)
+   {
+      if( title == aBook.title &&
+         author == aBook.author)
+         return true;
+      else
+         return false;
+   }
+   
+   public boolean hasSameTitle( LibraryBook aBook)
+   {
+      if( title == aBook.title)
+         return true;
+      else
+         return false;
+   }
+   
+   public boolean hasSameAuthor( LibraryBook aBook)
+   {
+      if( author == aBook.author)
+         return true;
+      else
+         return false;
+   }  
+}

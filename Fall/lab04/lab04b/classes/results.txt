@@ -1,0 +1,401 @@
+Please enter 100 values.
+ The sum is 60 while the number of values is 100
+ The average is 60.0
+ The maximum value is 60
+ The minimum value is 60
+ The sum is 158 while the number of values is 100
+ The average is 79.0
+ The maximum value is 98
+ The minimum value is 60
+ The sum is 201 while the number of values is 100
+ The average is 67.0
+ The maximum value is 98
+ The minimum value is 43
+ The sum is 299 while the number of values is 100
+ The average is 74.75
+ The maximum value is 98
+ The minimum value is 43
+ The sum is 320 while the number of values is 100
+ The average is 64.0
+ The maximum value is 98
+ The minimum value is 21
+ The sum is 345 while the number of values is 100
+ The average is 57.5
+ The maximum value is 98
+ The minimum value is 21
+ The sum is 353 while the number of values is 100
+ The average is 50.42857142857143
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 371 while the number of values is 100
+ The average is 46.375
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 416 while the number of values is 100
+ The average is 46.22222222222222
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 430 while the number of values is 100
+ The average is 43.0
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 516 while the number of values is 100
+ The average is 46.90909090909091
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 574 while the number of values is 100
+ The average is 47.833333333333336
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 640 while the number of values is 100
+ The average is 49.23076923076923
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 693 while the number of values is 100
+ The average is 49.5
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 726 while the number of values is 100
+ The average is 48.4
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 770 while the number of values is 100
+ The average is 48.125
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 786 while the number of values is 100
+ The average is 46.23529411764706
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 844 while the number of values is 100
+ The average is 46.888888888888886
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 890 while the number of values is 100
+ The average is 46.8421052631579
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 963 while the number of values is 100
+ The average is 48.15
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 971 while the number of values is 100
+ The average is 46.23809523809524
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 1038 while the number of values is 100
+ The average is 47.18181818181818
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 1079 while the number of values is 100
+ The average is 46.91304347826087
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 1145 while the number of values is 100
+ The average is 47.708333333333336
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 1242 while the number of values is 100
+ The average is 49.68
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 1313 while the number of values is 100
+ The average is 50.5
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 1371 while the number of values is 100
+ The average is 50.77777777777778
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 1417 while the number of values is 100
+ The average is 50.607142857142854
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 1450 while the number of values is 100
+ The average is 50.0
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 1539 while the number of values is 100
+ The average is 51.3
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 1636 while the number of values is 100
+ The average is 52.774193548387096
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 1690 while the number of values is 100
+ The average is 52.8125
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 1763 while the number of values is 100
+ The average is 53.42424242424242
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 1787 while the number of values is 100
+ The average is 52.55882352941177
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 1874 while the number of values is 100
+ The average is 53.542857142857144
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 1894 while the number of values is 100
+ The average is 52.611111111111114
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 1984 while the number of values is 100
+ The average is 53.62162162162162
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 2048 while the number of values is 100
+ The average is 53.89473684210526
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 2068 while the number of values is 100
+ The average is 53.02564102564103
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 2113 while the number of values is 100
+ The average is 52.825
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 2194 while the number of values is 100
+ The average is 53.51219512195122
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 2261 while the number of values is 100
+ The average is 53.833333333333336
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 2292 while the number of values is 100
+ The average is 53.30232558139535
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 2349 while the number of values is 100
+ The average is 53.38636363636363
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 2443 while the number of values is 100
+ The average is 54.28888888888889
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 2491 while the number of values is 100
+ The average is 54.15217391304348
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 2528 while the number of values is 100
+ The average is 53.787234042553195
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 2621 while the number of values is 100
+ The average is 54.604166666666664
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 2691 while the number of values is 100
+ The average is 54.91836734693877
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 2703 while the number of values is 100
+ The average is 54.06
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 2793 while the number of values is 100
+ The average is 54.76470588235294
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 2870 while the number of values is 100
+ The average is 55.19230769230769
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 2896 while the number of values is 100
+ The average is 54.64150943396226
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 2919 while the number of values is 100
+ The average is 54.05555555555556
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 2996 while the number of values is 100
+ The average is 54.472727272727276
+ The maximum value is 98
+ The minimum value is 8
+ The sum is 2998 while the number of values is 100
+ The average is 53.535714285714285
+ The maximum value is 98
+ The minimum value is 2
+ The sum is 3006 while the number of values is 100
+ The average is 52.73684210526316
+ The maximum value is 98
+ The minimum value is 2
+ The sum is 3042 while the number of values is 100
+ The average is 52.44827586206897
+ The maximum value is 98
+ The minimum value is 2
+ The sum is 3097 while the number of values is 100
+ The average is 52.49152542372882
+ The maximum value is 98
+ The minimum value is 2
+ The sum is 3189 while the number of values is 100
+ The average is 53.15
+ The maximum value is 98
+ The minimum value is 2
+ The sum is 3214 while the number of values is 100
+ The average is 52.68852459016394
+ The maximum value is 98
+ The minimum value is 2
+ The sum is 3251 while the number of values is 100
+ The average is 52.435483870967744
+ The maximum value is 98
+ The minimum value is 2
+ The sum is 3346 while the number of values is 100
+ The average is 53.111111111111114
+ The maximum value is 98
+ The minimum value is 2
+ The sum is 3418 while the number of values is 100
+ The average is 53.40625
+ The maximum value is 98
+ The minimum value is 2
+ The sum is 3482 while the number of values is 100
+ The average is 53.56923076923077
+ The maximum value is 98
+ The minimum value is 2
+ The sum is 3529 while the number of values is 100
+ The average is 53.46969696969697
+ The maximum value is 98
+ The minimum value is 2
+ The sum is 3546 while the number of values is 100
+ The average is 52.92537313432836
+ The maximum value is 98
+ The minimum value is 2
+ The sum is 3633 while the number of values is 100
+ The average is 53.4264705882353
+ The maximum value is 98
+ The minimum value is 2
+ The sum is 3720 while the number of values is 100
+ The average is 53.91304347826087
+ The maximum value is 98
+ The minimum value is 2
+ The sum is 3782 while the number of values is 100
+ The average is 54.02857142857143
+ The maximum value is 98
+ The minimum value is 2
+ The sum is 3815 while the number of values is 100
+ The average is 53.732394366197184
+ The maximum value is 98
+ The minimum value is 2
+ The sum is 3813 while the number of values is 100
+ The average is 52.958333333333336
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 3885 while the number of values is 100
+ The average is 53.21917808219178
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 3956 while the number of values is 100
+ The average is 53.45945945945946
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 3967 while the number of values is 100
+ The average is 52.89333333333333
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 4037 while the number of values is 100
+ The average is 53.11842105263158
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 4112 while the number of values is 100
+ The average is 53.4025974025974
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 4122 while the number of values is 100
+ The average is 52.84615384615385
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 4180 while the number of values is 100
+ The average is 52.91139240506329
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 4278 while the number of values is 100
+ The average is 53.475
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 4297 while the number of values is 100
+ The average is 53.04938271604938
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 4347 while the number of values is 100
+ The average is 53.01219512195122
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 4413 while the number of values is 100
+ The average is 53.16867469879518
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 4462 while the number of values is 100
+ The average is 53.11904761904762
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 4532 while the number of values is 100
+ The average is 53.31764705882353
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 4580 while the number of values is 100
+ The average is 53.25581395348837
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 4599 while the number of values is 100
+ The average is 52.86206896551724
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 4637 while the number of values is 100
+ The average is 52.69318181818182
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 4664 while the number of values is 100
+ The average is 52.40449438202247
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 4739 while the number of values is 100
+ The average is 52.65555555555556
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 4782 while the number of values is 100
+ The average is 52.54945054945055
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 4880 while the number of values is 100
+ The average is 53.04347826086956
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 4967 while the number of values is 100
+ The average is 53.40860215053763
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 4985 while the number of values is 100
+ The average is 53.03191489361702
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 5073 while the number of values is 100
+ The average is 53.4
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 5108 while the number of values is 100
+ The average is 53.208333333333336
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 5200 while the number of values is 100
+ The average is 53.608247422680414
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 5237 while the number of values is 100
+ The average is 53.43877551020408
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 5245 while the number of values is 100
+ The average is 52.97979797979798
+ The maximum value is 98
+ The minimum value is -2
+ The sum is 5324 while the number of values is 100
+ The average is 53.24
+ The maximum value is 98
+ The minimum value is -2

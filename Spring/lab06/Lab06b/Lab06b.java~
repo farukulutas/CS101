@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+/**
+ * The program create a random string which includes n character length given by the user and each character has 
+ * occured odd times 
+ * @author Ahmet Faruk Ulutaþ
+ * @version 03/04/2020
+ */ 
+public class Lab06b
+{
+   static String generateTheString( int n) {
+      String result;
+      
+      result = "";
+      
+      // generate a random string............
+   }
+   
+   public static void main( String[] args)
+   {
+      Scanner scan = new Scanner( System.in);
+      
+      // variables
+      int n;
+      
+      // program code
+      
+      // do while loop to ask n and print the output of it until n equal to zero
+      do {
+         // ask prompt and initiliase the n
+         System.out.print( "Enter the length of the string, please: ");
+         n = scan.nextInt();
+         
+         if ( n < 0 ) {
+            System.out.println( "Your input is invalid! You should enter a positive value.");
+         }
+         else {
+            System.out.println( generateTheString( n));  
+         }
+      } while ( n != 0 );
+   }
+   
+}

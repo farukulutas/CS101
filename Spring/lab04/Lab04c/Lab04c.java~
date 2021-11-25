@@ -1,0 +1,76 @@
+import java.util.Scanner;
+
+/**
+ * 
+ * @author Ahmet Faruk Ulutaþ
+ * @version 10/03/2020
+ */ 
+public class Lab04c
+{
+   public static void main( String[] args)
+   {
+      Scanner scan = new Scanner( System.in);
+      
+      // constants
+      final String BRACKETS = "------------------";
+      
+      // variables
+      int n, count;
+      
+      // program code
+      
+      //initiliase
+      count = 0;
+      
+      System.out.print( "Please enter a value for n: ");
+      n = scan.nextInt();
+      
+      while ( n < 1 ) {
+         System.out.print( "Please enter a value for n: ");
+         n = scan.nextInt();  
+      }
+      
+      System.out.println( BRACKETS + " 1 " + BRACKETS );
+      
+      while ( count < n - 1 ) {
+         count++;
+         
+         if ( count % 2 == 1 ) {
+            System.out.printf( (int) Math.pow( count, 2) + "\t" );
+         }
+         
+         if ( count % 10 == 0 ) {
+            System.out.println();  
+         }
+      }
+      
+      System.out.println( '\n' + BRACKETS + " 2 " + BRACKETS );
+      
+      while ( count >= 3 ) {
+         
+         count--;
+         
+         if ( (count % 3 == 0 || count % 4 == 0) && count % 12 != 0 ) {
+            System.out.printf( count + "\t" );
+         }
+         
+         if ( count % 12 == 3 ) {
+            System.out.println();  
+         }
+      }
+      
+      count = n;
+      System.out.println( '\n' + BRACKETS + " 3 " + BRACKETS );
+   
+      while ( count >= 1 ) {
+         System.out.printf( "%.2f" , (1.0 / count) + "\t" );
+         
+         if ( count % 5 == 2 ) {
+            System.out.println();  
+         }
+         
+         count--;
+      }
+   }
+   
+}

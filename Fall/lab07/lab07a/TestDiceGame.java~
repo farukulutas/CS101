@@ -1,0 +1,19 @@
+/**
+ * This class test the DiceGame class.
+ */
+public class TestDiceGame
+{
+   public static void main( String[] args)
+   {
+      // variables
+      DiceGame diceGame;
+      
+      // program code
+
+      //initilaze variable
+      diceGame = new DiceGame();
+      
+      //print the dicegame.play
+      System.out.println( "How many times turned is: " + diceGame.play() );
+   }
+}

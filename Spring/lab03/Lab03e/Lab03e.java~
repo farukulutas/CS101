@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+/**
+ * The program decide the zodiac sign by using month and day given by the user
+ * @author Ahmet Faruk Ulutaþ
+ * @version 03/03/2020
+ */ 
+public class Lab03e
+{
+   public static void main( String[] args)
+   {
+      Scanner scan = new Scanner( System.in);
+
+      // constants
+
+      // variables
+
+      // program code
+      System.out.println( "Start...");
+
+
+      System.out.println( "End.");
+   }
+
+}

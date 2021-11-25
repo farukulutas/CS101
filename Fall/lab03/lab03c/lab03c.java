@@ -1,0 +1,121 @@
+import java.util.Scanner;
+import java.nio.file.*;  
+import java.io.*;
+
+/**
+ * program description
+ * @author Ahmet Faruk Ulutaþ
+ * @version 17.10.2019
+ */ 
+public class lab03c
+{
+   public static void main( String[] args)
+   {
+      Scanner scan = new Scanner( System.in);
+      
+      // constants
+      final String DOC = "<!DOCTYPE html>";
+      final String HTML = "<html>";
+      final String HEAD = "<head>";
+      final String TITLE = "<title>";
+      final String FTITLE = "</title>";
+      final String HR = "<hr>";
+      final String FHR = "</hr>";
+      final String PIC = "<img src=\"einstein.jpg\">";
+      final String P = "<p>";
+      final String FP = "</p>";
+      final String H1 = "<h1>";
+      final String FH1 = "</h1>";   
+      final String FHEAD = "</head>";
+      final String BODY = "<body>";
+      final String FBODY = "</body>";
+      final String FHTML = "</html>";
+      final double TAX_RATE = 0.15;
+      final double HIGH_TAX_RATE = 0.25;
+      final double LOW_TAX_RATE = 0.05;
+      
+      // variables
+      int age;
+      double netSalary;
+      double grossSalary;
+      String name;
+      String comments;
+      
+      // program code
+      System.out.println("Please enter your age, name, salary and comments respectively.");
+      
+      age = scan.nextInt();
+      name = scan.nextLine();
+      name = scan.nextLine();
+      grossSalary = scan.nextDouble();
+      comments = scan.nextLine();
+      comments = scan.nextLine();
+      
+      if ( age > 0 && grossSalary > 0 )
+      {
+         System.out.println(DOC);
+         System.out.println(HTML);
+         System.out.println(HEAD);
+         System.out.println(TITLE + name + "'s Home Page");
+         System.out.println(FTITLE);
+         System.out.println(FHEAD);
+         System.out.println(BODY);
+         System.out.println(HR);
+         if (Files.exists( Paths.get("einstein.jpg") ))
+            System.out.println( PIC);
+         
+         System.out.println(H1 + age);
+         System.out.println(FH1);
+         System.out.println(P + name);
+         System.out.println(FP);
+         
+         if ( grossSalary <= 1000 )
+         {
+            netSalary = ( grossSalary - ( grossSalary * LOW_TAX_RATE ) );
+            System.out.println(P + "Net Salary " + netSalary + "(" + LOW_TAX_RATE + ")" );
+         }
+         else if ( grossSalary > 1000 && grossSalary < 5000 )
+         {
+            netSalary = ( grossSalary - ( grossSalary * TAX_RATE ) );
+            System.out.println(P + "Net Salary " + netSalary + "(" + TAX_RATE + ")" );
+         }
+         else if ( grossSalary < 10000 )
+         {
+            netSalary = ( grossSalary - ( grossSalary * HIGH_TAX_RATE ) );
+            System.out.println(P + "Net Salary " + netSalary + "(" + HIGH_TAX_RATE + ")" );
+         }
+         else
+         {
+            System.out.println( "Please enter appropriate age and salary" );
+            System.out.println(P + "Invalid Salary");
+         }
+         System.out.println(FP);
+         System.out.println(P + comments);
+         System.out.println(FP);
+         System.out.println(HR);
+         System.out.println(FBODY);
+         System.out.println(FHTML);
+      }
+//      System.out.println(DOC);
+//      System.out.println(HTML);
+//      System.out.println(HEAD);
+//      System.out.println(TITLE + name + "'s Home Page");
+//      System.out.println(FTITLE);
+//      System.out.println(FHEAD);
+//      System.out.println(BODY);
+//      System.out.println(HR);
+//      if (Files.exists( Paths.get("einstein.jpg") ))
+//         System.out.println( PIC);
+//      System.out.println(H1 + age);
+//      System.out.println(FH1);
+//      System.out.println(P + name);
+//      System.out.println(FP);
+//      System.out.println(P + "Net Salary" + netSalary + "(" + TAX_RATE + ")" );
+//      System.out.println(FP);
+//      System.out.println(P + comments);
+//      System.out.println(FP);
+//      System.out.println(HR);
+//      System.out.println(FBODY);
+//      System.out.println(FHTML);
+   }   
+}
